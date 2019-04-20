@@ -1,8 +1,8 @@
 # url-shortener
 A simple url shortener written in Go, with multiple backing stores as choices, such as:
-- Memory
-- Redis
-(More choices to come)
+- Memory (Will not persist when server is stopped)
+- Redis (Will persist when server is stopped)
+- (More choices to come)
 
 URLs are shortened to cgo.pl/abcdef (6-character alphanumeric). This can be changed.
 
