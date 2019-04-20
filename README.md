@@ -7,6 +7,8 @@ A simple url shortener written in Go, with multiple backing stores as choices, s
 URLs are shortened to cgo.pl/abcdef (6-character alphanumeric). This can be changed.
 
 # How to use
+- Start the http server:
+`go run main.go`
 - To shorten a url use:
 `curl http://localhost:8010/shorten?url=www.google.com`
 - To resolve a short url use:
